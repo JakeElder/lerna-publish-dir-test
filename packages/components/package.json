@@ -1,0 +1,22 @@
+{
+  "name": "@lerna-publish-dir-test/components",
+  "version": "0.0.0",
+  "description": "Components",
+  "author": "Jake Elder <jake@jakes.world>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "components": "components"
+  },
+  "files": [
+    "components"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "directory": "src"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
